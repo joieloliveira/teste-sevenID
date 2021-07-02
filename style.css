@@ -1,0 +1,63 @@
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/*===headerBar===========================*/
+.header .headerBar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+    background-color: #757675;
+    color: black;
+}
+.header .headerBar p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+.header .headerBar p:nth-child(2){
+    margin-right: 0;
+}
+.header .headerBar p:nth-child(3){
+    color: #C7DA2C;
+}
+.header .headerBar p:nth-child(4){
+    color: #898989;
+}
+/*===headerBody===========================*/
+.header .headerBody{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+    background-color: #414040;
+    color: black;
+}
+.header .headerBody img{
+    width: 120px;
+    height: 120px;
+    margin: 20px 0 20px 60px;
+}
+.header .headerBody .HBboxBody{
+    display: flex;
+}
+.header .headerBody .HBboxBody p{
+    margin: 0;
+}
+.header .headerBody .HBboxBody .HBbox1Body{
+    display: flex;
+}
+.header .headerBody .HBboxBody .HBbox2Body{
+    display: flex;
+}
+.header .headerBody .HBboxBody .HBbox2Body .HBboxtxt{
+    display: flex;
+    flex-direction: column;
+}
