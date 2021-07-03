@@ -8,8 +8,15 @@
     align-items: center;
     flex-direction: column;
 }
+.header .headerBG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #757675;
+    width: 100%;
+}
 /*===headerBar===========================*/
-.header .headerBar{
+.header .headerBG .headerBar{
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -18,22 +25,29 @@
     color: black;
     font-size: 90%;
 }
-.header .headerBar p{
+.header .headerBG .headerBar p{
     margin-top: 8px;
     margin-bottom: 8px;
     margin-right: 20px;
 }
-.header .headerBar p:nth-child(2){
+.header .headerBG .headerBar p:nth-child(2){
     margin-right: 0;
 }
-.header .headerBar p:nth-child(3){
+.header .headerBG .headerBar p:nth-child(3){
     color: #C7DA2C;
 }
-.header .headerBar p:nth-child(4){
+.header .headerBG .headerBar p:nth-child(4){
     color: #898989;
 }
 /*===headerBody===========================*/
-.header .headerBody{
+.header .headerBG2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #414040;
+}
+.header .headerBG2 .headerBody{
     display: flex;
     width: 65%;
     justify-content: space-between;
@@ -41,70 +55,76 @@
     color: black;
     font-size: 80%;
 }
-.header .headerBody img{
+.header .headerBG2 .headerBody img{
     width: 120px;
     height: 120px;
     margin: 20px 0 20px 60px;
 }
-.header .headerBody .HBboxBody{
+.header .headerBG2 .headerBody .HBboxBody{
     display: flex;
     margin-top: 10px;
 }
-.header .headerBody .HBboxBody p{
+.header .headerBG2 .headerBody .HBboxBody p{
     margin: 0;
 }
-.header .headerBody .HBboxBody .HBbox1Body{
+.header .headerBG2 .headerBody .HBboxBody .HBbox1Body{
     display: flex;
     align-items: center;
     height: 35%;
 }
-.header .headerBody .HBboxBody .HBbox1Body p{
+.header .headerBG2 .headerBody .HBboxBody .HBbox1Body p{
     margin: -11px 0 0 12px;
 }
-.header .headerBody .HBboxBody .HBbox1Body img{
+.header .headerBG2 .headerBody .HBboxBody .HBbox1Body img{
     width: 23px;
     height: 35px;
 }
-.header .headerBody .HBboxBody .HBbox2Body{
+.header .headerBG2 .headerBody .HBboxBody .HBbox2Body{
     display: flex;
     align-items: center;
     height: 35%;
     margin-right: 50px;
     margin-left: -20px;
 }
-.header .headerBody .HBboxBody .HBbox2Body .HBboxtxt p{
+.header .headerBG2 .headerBody .HBboxBody .HBbox2Body .HBboxtxt p{
     margin-left: 10px;
 }
-.header .headerBody .HBboxBody .HBbox2Body .HBboxtxt p:nth-child(2){
+.header .headerBG2 .headerBody .HBboxBody .HBbox2Body .HBboxtxt p:nth-child(2){
     font-size: 70%;
 }
-.header .headerBody .HBboxBody .HBbox2Body img{
+.header .headerBG2 .headerBody .HBboxBody .HBbox2Body img{
     width: 40px;
     height: 40px;
 }
-.header .headerBody .HBboxBody .HBbox2Body .HBboxtxt{
+.header .headerBG2 .headerBody .HBboxBody .HBbox2Body .HBboxtxt{
     display: flex;
     flex-direction: column;
 }
 /*===headerFooter===========================*/
-.header .headerFooter{
+.header .headerBG3{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    width: 100%;
     background: url(img/bg_headerFooter.png) top right;
-    background-size: 75% 66px;
+    background-size: 65% 66px;
     background-repeat: no-repeat;
-    width: 65%;
     height: 66px;
     margin-top: -66px;
 }
-.header .headerFooter a{
+.header .headerBG3 .headerFooter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 65%;
+}
+.header .headerBG3 .headerFooter a{
     text-decoration: none;
     color: black;
     margin-right: 50px;
     font-size: 130%;
 }
-.header .headerFooter button{
+.header .headerBG3 .headerFooter button{
     background-color: #C7DA2C;
     width: 66px;
     height: 66px;
@@ -118,7 +138,7 @@
     align-items: center;
     justify-content: center;
     background: url(img/bg.png) top center;
-    background-size: 65.05% 450px;
+    background-size: 100% 450px;
     background-repeat: no-repeat;
     padding-top: 20px;
     height: 450px;
@@ -290,6 +310,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+    background-color: rgb(19, 18, 18);
 }
 .abas .nav-link{
     display: flex;
@@ -338,7 +360,7 @@
     justify-content: center;
     flex-direction: column;
     background-color: white;
-    width: 95%;
+    width: 65%;
     border-radius: 0.5rem;
     margin-bottom: 60px;
 }
